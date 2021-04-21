@@ -11,4 +11,4 @@ def home(request):
     print(k)
     g = (k[0]['field1'])
     n = k[0]['created_at']
-    return render(request, 'home.html', {'field': g, 'created': n})
+    return render(request, 'Index.html', {'field': g, 'created': n})
